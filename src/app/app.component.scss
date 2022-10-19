@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .background-container {
+    background-image: url(../assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 22vh;
+  }
+  
+  .main-container {
+    width: 100%;
+  }
+  
+  .cards-container .graycard,
+  .colorcard {
+    height: 15vh;
+    border-radius: 0.2rem;
+  }
+
+  .colorcard{
+    background-image: url(/assets/bg-card-front.png);
+    height: 16vh;
+    width: 270px;
+    border-radius: .5rem;
+    
+
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color-cards-container {
+    margin-top: 35px;
+    height: 33vh;
+    width: 150px;
+  }
+
+  .colorcard{
+         font-family: 'Space Grotesk', sans-serif;
+         color: #fff;
+         height: 16vh;
+         width: 260px;
+        
+
+    
+  }
+
+  .card-logo-container{
+    display: flex;
+    
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .numberCardValue-container{
+    display: flex;
+    justify-content: center;   
+    font-size: 1.2rem;
+    height: 1rem;
+
+
+    }
+
+    .userNameCard-container{
+      display: flex;
+      justify-content: left;
+      width: 200px;
+      height: 0rem;
+      font-size: 0.9rem;
+      margin: 20px 5px 0px 5px;
+      background-color: red;
+    }
+    .date-container{
+      display: flex;
+      justify-content: right;
+      margin: 0px 5px 5px 25px;
+    }
+ 
+
+  .graycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 0.7rem;
+  }
+
+
+
+  .cards-container .colorcard {
+    position: absolute;
+    top: 12.3%;
+    right: 22%;
+    max-height: 200px;
+  }
+  
+  .input-container-without-column label {
+    display: flex;
+  }
+  .input-container-without-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .input-container-without-column input {
+    height: 4vh;
+    width: 64vw;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgba(156, 151, 151, 0.396);
+  }
+  
+  input::placeholder {
+    font-size: 1rem;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    color: rgba(128, 128, 128, 0.467);
+  }
+  .input-container {
+    margin-top: 110px;
+  
+  }
+  
+  .group {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .input-container-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  
+  label,
+  input {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    color: hsl(278, 68%, 11%);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  .input-container-column input{
+      max-width: 15vw;
+  }
+  
+  
+  
+  input {
+    width: 14vw;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid rgba(156, 151, 151, 0.396);
+  }
+  
+  .confirm-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .confirm-button-container input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 5vh;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: hsl(278, 68%, 11%);
+    color: #fff;
+  }
+
+  .card-details-container{
+    margin-bottom: 90px;
+  }
+  .input-container .card-details-container span {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top:20px ;
+   font-size: 2rem;
+    }
+    .input-container .card-details-container p{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top:20px ;
+   font-size: 1rem;
+   color: rgb(128, 119, 119);
+    }
+    .input-container .card-details-container  .button-container{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   
+    }
+
+    .input-container .card-details-container button{
+      font-size: 1rem;
+      outline: none;
+      border: none;
+      border-radius: 0.5rem;
+      width: 65vw;
+    height: 6vh;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: hsl(278, 68%, 11%);
+    color: #fff;
+    }
+
+    .complete-icon-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    
+
+
+  input.ng-touched.ng-invalid {
+    border: 1px solid red;
+  }
+  input.ng-touched.ng-valid {
+    border: 1px solid green;
+  }
+
+  .button{
+   cursor: pointer;
+  }
+
+  .text-danger{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @media screen and (min-width: 540px) {
+      .input-container-column input{
+          max-width: 5vw;
+      }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .background-container {
+      height: 100vh;
+      width: 30vw;
+      flex-direction: column;
+    }
+  
+    
+  
+    body {
+      display: flex;
+    }
+    .main-container {
+      width: 40%;
+      display: flex;
+    }
+  
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .input-container{
+      display: flex;
+      margin-top: 260px;
+      margin-left: 350px;
+    }
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      height: 30vh;
+    }
+    .color-cards-container {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 200px;
+    }
+    .color-cards-container .colorcard {
+      position: inherit;
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px 50px 80px;
+      
+    }
+    .colorcard{
+      margin-right: 530px;
+      margin-top: 50px;
+    }
+  
+    .color-cards-container .graycard {
+      margin-left: 150px;
+    }
+  
+    .background-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .cards-container .graycard{
+     width: 22vw;
+     height: 22vh;
+    }
+    
+    .cards-container .colorcard{
+      height: 22vh;
+      width: 22vw;
+    }
+
+    .colorcard .userNameCard-container{
+      margin-top: 60px;
+    }
+    .confirm-button-container{
+      width: 25vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input-container .card-details-container button{
+      width: 22vw;
+    }
+  
+    .group{
+        margin: 0px 40px 0px 40px;
+      }
+      .input-container-without-column input {
+          max-width: 25vw;
+          
+          
+      }
+      input{
+       width: 4vw;
+        display: flex;
+        justify-content: space-between;
+        
+      }
+   
+  
+  }
+  
